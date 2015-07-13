@@ -28,6 +28,8 @@ try:
     # driver.get_screenshot_as_file("d:\\a.png");
     # You should see "cheese! - Google Search"
     print driver.title
+    #assert 'cheese' in driver.title
 
 finally:
     driver.quit()
+    pass
